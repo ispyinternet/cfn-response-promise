@@ -10,7 +10,7 @@ exports.FAILED = "FAILED";
  
 exports.send = function(event, context, responseStatus, responseData, physicalResourceId) {
 
-    return Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
 	
 	var responseBody = JSON.stringify({
             Status: responseStatus,
