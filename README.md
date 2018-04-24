@@ -1,4 +1,4 @@
-#cfn-response-promise module
+# cfn-response-promise module
 
 Promise wrapped version of cfn-response.
 
