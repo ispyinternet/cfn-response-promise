@@ -1,6 +1,6 @@
 {
   "name": "cfn-response-promise",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "wrap cfn-response in promise to support await/async style lambda in cloudformation custom resource",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   "bugs": {
     "url": "https://github.com/ispyinternet/cfn-response-promise/issues"
   },
-    "homepage": "https://github.com/ispyinternet/cfn-response-promise#readme",
-    "engines": {
-	"node": ">=8.1.0"
-    }
+  "homepage": "https://github.com/ispyinternet/cfn-response-promise#readme",
+  "engines": {
+    "node": ">=8.1.0"
+  }
 }
